@@ -1,7 +1,7 @@
 
-if(localStorage.getItem('bookmarks') !== null){
-fetchBookmarks();
-}
+
+
+
 
 document.querySelector('#footer').addEventListener('submit', saveBookmark);
 

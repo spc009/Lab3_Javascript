@@ -1,4 +1,4 @@
-
+fetchBookmarks()
 
 document.querySelector('#footer').addEventListener('submit', saveBookmark);
 

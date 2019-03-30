@@ -1,8 +1,3 @@
-
-
-
-
-
 document.querySelector('#footer').addEventListener('submit', saveBookmark);
 
 function saveBookmark(e) {
@@ -39,7 +34,7 @@ function saveBookmark(e) {
     document.querySelector('#email').value = '';
     document.querySelector('#message').value = '';
 
-    fetchBookmarks()
+    fetchBookmarks();
 }
 
 
